@@ -25,7 +25,7 @@ const Home = () => (
       }}
     />
     <Button primary size="huge">
-      Download Today! <Icon name="cloud download" />
+      Download The App! <Icon name="cloud download" />
     </Button>
   </Container>
 );
