@@ -5,7 +5,7 @@ body {
 
 .app {
   /* background-color: #e96b63; */
-  background-image: url('./img/home-bg.png');
+  background-image: url(./img/home-bg.png);
   height: 100vh;
 }
 
@@ -26,7 +26,7 @@ body {
   text-align: center;
 }
 
-.team-grid {
+.padding {
   padding: 15px !important;
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Segment, Image } from 'semantic-ui-react';
 
 const Team = () => (
-  <Grid columns={2} className="team-grid">
+  <Grid columns={2} className="padding">
     <Grid.Row>
       <Grid.Column>
         <Segment raised className="team-member">
@@ -11,7 +11,7 @@ const Team = () => (
             size="small"
             rounded
           />
-          <p>Andrew</p>
+          <h2>Andrew</h2>
         </Segment>
       </Grid.Column>
       <Grid.Column>
@@ -21,7 +21,7 @@ const Team = () => (
             size="small"
             rounded
           />
-          <p>Valerie</p>
+          <h2>Valerie</h2>
         </Segment>
       </Grid.Column>
     </Grid.Row>
@@ -34,14 +34,14 @@ const Team = () => (
             size="small"
             rounded
           />
-          <p>Frances</p>
+          <h2>Frances</h2>
         </Segment>
       </Grid.Column>
       <Grid.Column>
         <Segment raised className="team-member">
-          <Image src="../../img/Marshall.jpg" size="small" rounded />
+          <Image src="./Marshall.jpg" size="small" rounded />
           <div>
-            <p>Marshall</p>
+            <h2>Marshall</h2>
             <p>Marshall is a software engineer</p>
           </div>
         </Segment>
