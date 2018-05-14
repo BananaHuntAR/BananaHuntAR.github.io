@@ -4,7 +4,8 @@ body {
 }
 
 .app {
-  background-color: #e96b63;
+  /* background-color: #e96b63; */
+  background-image: url('./img/home-bg.png');
   height: 100vh;
 }
 

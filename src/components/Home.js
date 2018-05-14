@@ -27,6 +27,13 @@ const Home = () => (
     <Button primary size="huge">
       Download The App! <Icon name="cloud download" />
     </Button>
+    <Button
+      color="github"
+      size="huge"
+      onClick={() => window.open('https://github.com/ScavengAR', '_blank')}
+    >
+      <Icon name="github" />Source Code
+    </Button>
   </Container>
 );
 
