@@ -46,3 +46,7 @@ body {
   padding: 10px;
   max-height: 170px;
 }
+
+.paragraph {
+  font-size: 1.2em;
+}

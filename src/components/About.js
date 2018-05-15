@@ -4,7 +4,10 @@ import { Segment } from 'semantic-ui-react';
 const About = () => (
   <div className="padding">
     <Segment raised>
-      <p>About section here</p>
+      <p className="paragraph">
+        Banana Hunt is a virtual reality scavenger hunt where users must collect
+        all of the VR bananas in as little time as possible.
+      </p>
     </Segment>
   </div>
 );
