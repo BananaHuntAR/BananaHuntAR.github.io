@@ -4,10 +4,16 @@ body {
 }
 
 .app {
-  /* background-color: #e96b63; */
-  background-image: url(./img/home-bg.png);
+  background-color: #e96b63;
   height: 100vh;
 }
+
+/* .background-img {
+  position: absolute;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+} */
 
 .navbar {
   border-width: 0 !important;
@@ -20,10 +26,12 @@ body {
 
 .navbar-container {
   background-color: #3fbe94 !important;
+  margin: 0 !important;
 }
 
 .heading {
   text-align: center;
+  z-index: 1;
 }
 
 .padding {
@@ -32,4 +40,9 @@ body {
 
 .team-member {
   display: flex !important;
+}
+
+.headshot {
+  padding: 10px;
+  max-height: 170px;
 }

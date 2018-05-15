@@ -1,8 +1,10 @@
 import React from 'react';
-import { Container, Header, Button, Icon } from 'semantic-ui-react';
+import { Container, Header, Button, Icon, Image } from 'semantic-ui-react';
+import logo from '../img/logo.png';
 
 const Home = () => (
   <Container text className="heading">
+    <Image src={logo} size="medium" style={{ alignSelf: 'center' }} />
     <Header
       as="h1"
       content="Banana Hunt"
@@ -10,8 +12,7 @@ const Home = () => (
       style={{
         fontSize: '4em',
         fontWeight: 'normal',
-        marginBottom: 0,
-        marginTop: '3em'
+        marginBottom: 0
       }}
     />
     <Header
