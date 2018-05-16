@@ -3,6 +3,18 @@ body {
   padding: 0;
 }
 
+.flex {
+  display: flex;
+}
+
+.padding {
+  padding: 25px !important;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
 .app {
   background: linear-gradient(to bottom right, #e96b63, #f8a032);
   height: 100vh;
@@ -30,6 +42,7 @@ body {
 }
 
 .title {
+  text-align: center;
   font-size: 6em !important;
   font-family: 'Nanum Pen Script', cursive !important;
   font-weight: normal !important;
@@ -40,10 +53,6 @@ body {
   font-size: 1.7em !important;
   font-weight: normal !important;
   margin-top: 0 !important;
-}
-
-.padding {
-  padding: 25px !important;
 }
 
 .team-member {
@@ -59,8 +68,9 @@ body {
 
 .paragraph {
   font-size: 1.5em;
+  margin: 20px;
 }
 
-.scroll {
-  overflow: scroll;
+.about {
+  height: 82vh;
 }
