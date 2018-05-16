@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid } from 'semantic-ui-react';
 import TeamMember from './TeamMember';
 import Marshall from '../img/Marshall.jpg';
+import Val from '../img/Val.jpg';
 
 const Team = () => (
   <Grid columns={2} className="padding">
@@ -17,9 +18,9 @@ const Team = () => (
       </Grid.Column>
       <Grid.Column>
         <TeamMember
-          name="Valerie"
-          bio="Info here"
-          imgUrl="/assets/images/wireframe/media-paragraph.png"
+          name="Val"
+          bio="Val is a Software Engineer hailing from the Northeast. After graduating from University of Michigan with a degree in business, she spent time in Chicago and Detroit working as a Financial Analyst and Digital Strategy Associate. She’s now back in the Big Apple to pursue a career in development post her education at the Fullstack Academy of Code. In her free time, you can find her traveling, trying new brunch places, or watching Game of Thrones."
+          imgUrl={Val}
           github="https://github.com/valpil"
           linkedIn="https://www.linkedin.com/in/valerie-pilossof/"
         />
