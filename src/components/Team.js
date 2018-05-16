@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Image } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
 import TeamMember from './TeamMember';
 import Marshall from '../img/Marshall.jpg';
 import Val from '../img/Val.jpeg';
