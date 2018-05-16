@@ -3,6 +3,7 @@ import { Grid } from 'semantic-ui-react';
 import TeamMember from './TeamMember';
 import Marshall from '../img/Marshall.jpg';
 import Val from '../img/Val.jpeg';
+import Andrew from '../img/Andrew.png';
 
 const Team = () => (
   <Grid columns={2} className="padding">
@@ -10,8 +11,8 @@ const Team = () => (
       <Grid.Column>
         <TeamMember
           name="Andrew"
-          bio="Info here"
-          imgUrl="/assets/images/wireframe/media-paragraph.png"
+          bio="Andrew is software engineer born and raised in Brooklyn, New York. Previously, he was a Transfer Pricing Tax Consultant at Ernst & Young providing tax advice to US headquartered banks and private equity clients. He’s attracted to technical challenges and enjoys immersing himself in learning about areas of interest such as software engineering, entrepreneurship, marketing, fitness, and horology."
+          imgUrl={Andrew}
           github="https://github.com/andventuree"
           linkedIn="https://www.linkedin.com/in/andreww-wong/"
         />
