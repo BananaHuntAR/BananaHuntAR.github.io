@@ -4,7 +4,7 @@ import TeamMember from './TeamMember';
 import Marshall from '../img/Marshall.jpg';
 import Val from '../img/Val.jpeg';
 import Andrew from '../img/Andrew.png';
-import bananaTeam from '../img/bananaTeam.png';
+import Frances from '../img/Frances.jpg';
 
 const Team = () => (
   <Grid columns={2} className="padding">
@@ -33,8 +33,8 @@ const Team = () => (
       <Grid.Column>
         <TeamMember
           name="Frances"
-          bio="Info here"
-          imgUrl="/assets/images/wireframe/media-paragraph.png"
+          bio="Frances is a New York-based creative technologist and fullstack web developer, using cross-disciplinary approaches to craft engaging and interactive experiences across digital and physical spaces. She holds a Master of Music in Music Technology from NYU and a BA Multimedia Design from Northumbria University. Her artwork has been exhibited at various galleries and festivals around the world."
+          imgUrl={Frances}
           github="https://github.com/francesyw"
           linkedIn="https://www.linkedin.com/in/francesyuanwang/"
         />
