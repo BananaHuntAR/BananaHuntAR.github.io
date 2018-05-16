@@ -3,7 +3,7 @@ import { Segment, Image, Button } from 'semantic-ui-react';
 
 const TeamMember = ({ name, imgUrl, bio, github, linkedIn }) => (
   <Segment raised className="team-member">
-    <Image src={imgUrl} size="small" rounded className="headshot" />
+    <Image src={imgUrl} size="small" className="headshot" />
     <div>
       <h2>{name}</h2>
       <p className="">{bio}</p>
