@@ -43,7 +43,7 @@ body {
 }
 
 .padding {
-  padding: 15px !important;
+  padding: 25px !important;
 }
 
 .team-member {
@@ -51,8 +51,10 @@ body {
 }
 
 .headshot {
-  padding: 10px;
-  max-height: 170px;
+  margin: 10px;
+  width: auto !important;
+  height: auto !important;
+  max-height: 200px;
 }
 
 .paragraph {
