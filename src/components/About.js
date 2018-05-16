@@ -34,7 +34,7 @@ const About = () => (
       </p>
       <Image src={demo07} size="large" spaced />
       <Image src={demo05} size="large" spaced />
-      <h1 className="title">Happy hunting!!</h1>
+      <h1 className="title">Happy Hunting!!</h1>
     </Segment>
   </div>
 );
