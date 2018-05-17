@@ -32,7 +32,7 @@ export default class Home extends React.Component {
         <Button
           color="black"
           size="huge"
-          onClick={() => window.open('https://github.com/ScavengAR')}
+          onClick={() => window.open('https://github.com/BananaHuntAR')}
         >
           <Icon name="github" /> Source Code
         </Button>
