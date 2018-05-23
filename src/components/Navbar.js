@@ -32,6 +32,14 @@ export default class Navbar extends Component {
             className="navbar-item"
           />
           <Menu.Item
+            name="demo"
+            as={Link}
+            to="/demo"
+            active={activeItem === 'demo'}
+            onClick={this.handleClick}
+            className="navbar-item"
+          />
+          <Menu.Item
             name="meet the team"
             as={Link}
             to="/team"
