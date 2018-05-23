@@ -28,12 +28,10 @@ body {
 
 .navbar-item {
   font-size: 1.2em;
-  /* opacity: 1 !important; */
 }
 
 .navbar-container {
   background-color: #3fbe94 !important;
-  /* opacity: 0; */
   margin: 0 !important;
 }
 
@@ -74,4 +72,10 @@ body {
 
 .about {
   height: 82vh;
+}
+
+.video {
+  margin: auto;
+  max-width: 60vw;
+  text-align: center;
 }
