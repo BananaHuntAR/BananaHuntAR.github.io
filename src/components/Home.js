@@ -22,7 +22,7 @@ export default class Home extends React.Component {
         <Header as="h1" content="Banana Hunt" inverted className="title" />
         <Header
           as="h2"
-          content="An augmented reality scavenger hunt for monkeys!"
+          content="A fruit-themed augmented reality scavenger hunt!"
           inverted
           className="subtitle"
         />
