@@ -3,22 +3,10 @@ body {
   padding: 0;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-}
-
-.padding {
-  padding: 25px !important;
-}
-
-.scroll {
-  overflow: scroll;
-}
-
 .app {
   background: linear-gradient(to bottom right, #e96b63, #f8a032);
   height: 100vh;
+  overflow: auto;
 }
 
 .navbar {
@@ -41,7 +29,6 @@ body {
 }
 
 .title {
-  text-align: center;
   font-size: 6em !important;
   font-family: 'Nanum Pen Script', cursive !important;
   font-weight: normal !important;
@@ -54,24 +41,47 @@ body {
   margin-top: 0 !important;
 }
 
+#about {
+  margin: 2rem;
+  text-align: center;
+}
+
+#banana-king {
+  margin: 1rem;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+.video {
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 60vw;
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+#team-list {
+  margin: 1rem;
+}
+
 .team-member {
   display: flex !important;
 }
 
 .headshot {
-  margin: 10px;
+  margin: 1%;
   width: auto !important;
   height: auto !important;
-  max-height: 200px;
-}
-
-.paragraph {
-  font-size: 1.5em;
-  margin: 20px;
-}
-
-.video {
-  margin: auto;
-  max-width: 60vw;
-  text-align: center;
+  max-height: 14rem;
 }

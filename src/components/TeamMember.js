@@ -6,7 +6,7 @@ const TeamMember = ({ name, imgUrl, bio, github, linkedIn }) => (
     <Image src={imgUrl} className="headshot" rounded />
     <div>
       <h2>{name}</h2>
-      <p className="">{bio}</p>
+      <p>{bio}</p>
       <Button
         circular
         color="black"

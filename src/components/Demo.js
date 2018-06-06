@@ -2,9 +2,9 @@ import React from 'react';
 import { Embed, Button, Icon } from 'semantic-ui-react';
 
 const Demo = () => (
-  <div className="video padding">
+  <div className="video">
     <Embed id="LcGKAu49MnA" source="youtube" className="youtube-video" />
-    <p className="paragraph">
+    <p className="paragraph white">
       Trouble viewing the video?{' '}
       <Button
         color="youtube"
