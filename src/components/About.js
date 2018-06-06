@@ -10,7 +10,7 @@ import demo07 from '../img/demo07.png';
 
 const About = () => (
   <div className="padding">
-    <Segment className="about scroll" raised>
+    <Segment raised>
       <div className="flex">
         <Image src={bananaTeam} className="padding" />
         <h1 className="title">Banana Hunt</h1>

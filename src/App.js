@@ -5,7 +5,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 export default class App extends Component {
   render() {
     return (
-      <div className="app">
+      <div className="app scroll">
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
