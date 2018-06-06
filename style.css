@@ -3,22 +3,10 @@ body {
   padding: 0;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-}
-
-.padding {
-  padding: 25px !important;
-}
-
-.scroll {
-  overflow: scroll;
-}
-
 .app {
   background: linear-gradient(to bottom right, #e96b63, #f8a032);
   height: 100vh;
+  overflow: auto;
 }
 
 .navbar {
@@ -38,10 +26,10 @@ body {
 .heading {
   text-align: center;
   z-index: 1;
+  margin-bottom: 2rem !important;
 }
 
 .title {
-  text-align: center;
   font-size: 6em !important;
   font-family: 'Nanum Pen Script', cursive !important;
   font-weight: normal !important;
@@ -54,28 +42,97 @@ body {
   margin-top: 0 !important;
 }
 
-.team-member {
-  display: flex !important;
+#about {
+  margin: 2rem;
+  text-align: center;
 }
 
-.headshot {
-  margin: 10px;
-  width: auto !important;
-  height: auto !important;
-  max-height: 200px;
+#banana-king {
+  margin: 1rem;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
 }
 
 .paragraph {
-  font-size: 1.5em;
-  margin: 20px;
-}
-
-.about {
-  height: 82vh;
+  font-size: 1.5rem;
+  margin: 2rem !important;
 }
 
 .video {
   margin: auto;
-  max-width: 60vw;
+  margin-top: 4rem;
   text-align: center;
 }
+.video iframe {
+  width: 50vw;
+  height: 30vw;
+}
+
+.white {
+  color: white;
+}
+
+#team-list {
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  display: flex !important;
+  flex-basis: 48%;
+  margin: 1% !important;
+}
+
+.headshot {
+  margin: 1%;
+  width: auto !important;
+  height: auto !important;
+  max-height: 14rem;
+}
+
+@media screen and (max-width: 1024px) {
+  #about > img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-item {
+    font-size: 1em;
+  }
+
+  #about > img {
+    width: 150px;
+  }
+
+  .about-title {
+    display: block;
+  }
+
+  .team-member {
+    flex-basis: auto;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .headshot {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-height: 440px) {
+  .video iframe {
+    width: 100vw;
+    height: 60vw;
+  }
+}
+
+/* @media screen and (min-height: 640px) {
+  .video {
+    margin-top: 15vh;
+  }
+} */
