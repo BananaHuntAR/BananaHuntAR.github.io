@@ -8,6 +8,7 @@ To update the deployed Github site:
 2.  From the `dev-branch`, run `npm run build` in your terminal
 3.  Once `npm run build` is complete, run `npm run deploy` in your terminal
 4.  You're all set! The site should reflect the new updates within a few minutes.
-    _**Note:** When making updates to the site, DO NOT push to master. The master branch will be automatically updated when you run the commands `npm run build` and `npm run deploy`._
+
+_**Note:** When making updates to the site, DO NOT push to master. The master branch will be automatically updated when you run the commands `npm run build` and `npm run deploy`._
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
