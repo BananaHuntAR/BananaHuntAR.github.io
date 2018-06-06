@@ -57,14 +57,17 @@ body {
 
 .paragraph {
   font-size: 1.5rem;
-  margin: 2rem;
+  margin: 2rem !important;
 }
 
 .video {
   margin: auto;
-  margin-top: 1rem;
-  max-width: 60vw;
+  margin-top: 4rem;
   text-align: center;
+}
+.video iframe {
+  width: 50vw;
+  height: 30vw;
 }
 
 .white {
@@ -73,10 +76,14 @@ body {
 
 #team-list {
   margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .team-member {
   display: flex !important;
+  flex-basis: 48%;
+  margin: 1% !important;
 }
 
 .headshot {
@@ -85,3 +92,28 @@ body {
   height: auto !important;
   max-height: 14rem;
 }
+
+@media screen and (max-width: 768px) {
+  .team-member {
+    flex-basis: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-height: 440px) {
+  .video iframe {
+    width: 100vw;
+    height: 60vw;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .headshot {
+    display: none !important;
+  }
+}
+
+/* @media screen and (min-height: 640px) {
+  .video {
+    margin-top: 15vh;
+  }
+} */
