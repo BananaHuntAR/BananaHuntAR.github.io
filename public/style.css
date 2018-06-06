@@ -26,6 +26,7 @@ body {
 .heading {
   text-align: center;
   z-index: 1;
+  margin-bottom: 2rem !important;
 }
 
 .title {
@@ -93,9 +94,33 @@ body {
   max-height: 14rem;
 }
 
+@media screen and (max-width: 1024px) {
+  #about > img {
+    width: 300px;
+  }
+}
+
 @media screen and (max-width: 768px) {
+  .navbar-item {
+    font-size: 1em;
+  }
+
+  #about > img {
+    width: 150px;
+  }
+
+  .about-title {
+    display: block;
+  }
+
   .team-member {
     flex-basis: auto;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .headshot {
+    display: none !important;
   }
 }
 
@@ -103,12 +128,6 @@ body {
   .video iframe {
     width: 100vw;
     height: 60vw;
-  }
-}
-
-@media screen and (max-width: 440px) {
-  .headshot {
-    display: none !important;
   }
 }
 
